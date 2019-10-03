@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int a,p,flag=0;
+	char c[20];
+	
+	printf("Enter your name: ");
+	gets(c);
+	printf("%s",c);
+	
+	printf("\nEnter your age- ");
+	scanf("%d",&a);
+	printf("%d",a);
+	
+	printf("\nEnter your phone no. :-");
+	scanf("%d",&p);
+	printf("%d",p);
+	
+	return 0;
+}
